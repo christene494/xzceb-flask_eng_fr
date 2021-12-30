@@ -7,9 +7,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #apikey = os.environ['apikey']
-apikey='9qtq_dLaGZdsGoWfge2Mjc40yihEvrLU_-FKtTC06v-Q'
+apikey=''
 #url = os.environ['url']
-url='https://api.us-south.language-translator.watson.cloud.ibm.com/instances/bad9614e-e897-4351-9ce1-fbc87584b90e'
+url=''
 
 authenticator = IAMAuthenticator(apikey)
 language_translator = LanguageTranslatorV3(version='2018-05-01', authenticator=authenticator)
